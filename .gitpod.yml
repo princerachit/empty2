@@ -1,1 +1,4 @@
 image: registry.gitlab.com/prince41/testproj/nginx:latest
+- name: test
+  before: echo "hello"
+  init: echo "hello"
