@@ -1,4 +1,4 @@
-image: registry.gitlab.com/prince41/testproj/nginx:latest
+image: registry.gitlab.com/prince41/testproj/ubuntu:latest
 tasks:
 - name: test
   before: echo "hello"
